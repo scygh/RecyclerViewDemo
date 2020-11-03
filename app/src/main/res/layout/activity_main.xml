@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/main_click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="点击列表" />
+
+        <Button
+            android:id="@+id/main_drag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="拖动列表" />
+
+        <Button
+            android:id="@+id/main_expandcollapse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="收缩" />
+
+        <Button
+            android:id="@+id/main_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="footer列表" />
+
+
+        <Button
+            android:id="@+id/main_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="grid列表" />
+
+        <Button
+            android:id="@+id/main_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="group列表" />
+
+        <Button
+            android:id="@+id/main_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="header列表" />
+
+        <Button
+            android:id="@+id/main_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="horizontal列表" />
+
+        <Button
+            android:id="@+id/main_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="link列表" />
+
+        <Button
+            android:id="@+id/main_load"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="load列表" />
+
+        <Button
+            android:id="@+id/refresh_click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="refresh列表" />
+
+        <Button
+            android:id="@+id/main_slide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="slide列表" />
+
+        <Button
+            android:id="@+id/main_snaphelper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="snaphelper列表" />
+
+        <Button
+            android:id="@+id/main_sticky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sticky列表" />
+
+        <Button
+            android:id="@+id/main_swip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="swip列表" />
+
+        <Button
+            android:id="@+id/main_timeline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="timeline列表" />
+
+        <Button
+            android:id="@+id/main_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="vertical列表" />
+
+        <Button
+            android:id="@+id/main_waterfall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="waterfall列表" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
